@@ -259,7 +259,7 @@ public class ChessScreen extends JFrame implements MouseListener, ActionListener
             new ChessScreen();
         }
         if (e.getActionCommand().equals("Main Menu")) {
-            System.out.println("Quit button clicked.");
+            //System.out.println("Quit button clicked."); TODO
             frame.setVisible(false);
             try {
                 new ChessGreeting();
