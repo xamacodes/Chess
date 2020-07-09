@@ -1,8 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="66ec20d7-70f2-413d-85b8-32816d5e935a" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="66ec20d7-70f2-413d-85b8-32816d5e935a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChessApplication/ChessScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChessApplication/ChessScreen.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,8 +35,19 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1d6XVj96Phvrm8KsagYDmyfC1fr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -26,18 +57,6 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/images" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="ChessTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -71,5 +90,35 @@
       <updated>1591746541403</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1358" height="194" key="GridCell.Tab.0.bottom" timestamp="1594260300233">
+      <screen x="0" y="23" width="1440" height="807" />
+    </state>
+    <state width="1358" height="194" key="GridCell.Tab.0.bottom/0.23.1440.807@0.23.1440.807" timestamp="1594260300233" />
+    <state width="1358" height="194" key="GridCell.Tab.0.center" timestamp="1594260300233">
+      <screen x="0" y="23" width="1440" height="807" />
+    </state>
+    <state width="1358" height="194" key="GridCell.Tab.0.center/0.23.1440.807@0.23.1440.807" timestamp="1594260300233" />
+    <state width="1358" height="194" key="GridCell.Tab.0.left" timestamp="1594260300232">
+      <screen x="0" y="23" width="1440" height="807" />
+    </state>
+    <state width="1358" height="194" key="GridCell.Tab.0.left/0.23.1440.807@0.23.1440.807" timestamp="1594260300232" />
+    <state width="1358" height="194" key="GridCell.Tab.0.right" timestamp="1594260300233">
+      <screen x="0" y="23" width="1440" height="807" />
+    </state>
+    <state width="1358" height="194" key="GridCell.Tab.0.right/0.23.1440.807@0.23.1440.807" timestamp="1594260300233" />
   </component>
 </project>

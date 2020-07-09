@@ -229,7 +229,7 @@ public class ChessScreen extends JFrame implements MouseListener, ActionListener
     public void mouseEntered(MouseEvent e) {
         if (!pieceSelected) {
             for (int i = 0; i < 64; i++) {
-                if (board.getComponent(i).getBackground() == Color.red) {
+                if (board.getComponent(i).getBackground() == Color.red || board.getComponent(i).getBackground() == Color.blue) {
                     board.getComponent(i).setBackground(map.get(i));
                 }
                 e.getComponent().setBackground(Color.red);
