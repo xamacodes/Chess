@@ -37,7 +37,7 @@ public class ChessScreen extends JFrame implements MouseListener, ActionListener
     private Map<Component, ImageIcon> wherePiecesAre;
     private boolean pieceSelected;
     private int old;
-
+ 
     ChessScreen() {
         wherePiecesAre = new HashMap<>();
 
@@ -229,7 +229,7 @@ public class ChessScreen extends JFrame implements MouseListener, ActionListener
     public void mouseEntered(MouseEvent e) {
         if (!pieceSelected) {
             for (int i = 0; i < 64; i++) {
-                if (board.getComponent(i).getBackground() == Color.red || board.getComponent(i).getBackground() == Color.blue) {
+                if (board.getComponent(i).getBackground() == Color.red) {
                     board.getComponent(i).setBackground(map.get(i));
                 }
                 e.getComponent().setBackground(Color.red);
@@ -259,7 +259,6 @@ public class ChessScreen extends JFrame implements MouseListener, ActionListener
             new ChessScreen();
         }
         if (e.getActionCommand().equals("Main Menu")) {
-            //System.out.println("Quit button clicked."); TODO
             frame.setVisible(false);
             try {
                 new ChessGreeting();
